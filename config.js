@@ -6,44 +6,44 @@ const chalk = require("chalk");
 //
 global.available = false;
 global.autoReadGc = false;
-global.autoReadAll = false;
+global.autoReadAll = true;
 global.antitags = false;
 
 
 //auto functioner
 global.autoTyping = false;                //make true to enable auto typing
 global.autoRecord = true;                //make true to enable auto recording
-global.groupevent = false;                //This is the new variable for controlling group event handling.
-global.statusseen = false;                 //make true to view statuses 
+global.groupevent = true;                //This is the new variable for controlling group event handling.
+global.statusseen = true;                 //make true to view statuses 
 
 
 //
-/*global.Owner = process.env.OWNER || "2347045174399";// Owner number
-global.OwnerNumber = process.env.OWNER_NUMBER || "2347045174399" ;// Also owner number
-global.ownertag = process.env.OWNER_TAG || "2347045174399";// Also owner number
+/*global.Owner = process.env.OWNER || "918787651195";// Owner number
+global.OwnerNumber = process.env.OWNER_NUMBER || "918787651195" ;// Also owner number
+global.ownertag = process.env.OWNER_TAG || "918787651195";// Also owner number
 global.sessID = process.env.sessID || ""; //Session ID here.
-global.OwnerName = process.env.OWNER_NAME || "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";// Owner Name
-global.BotName = "🐦Makino-md-v2";//Do not change 🥵
-global.packname = process.env.PACKNAME || "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";//Sticker pack name.
-global.author = "🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";//Do not change                            //Do not change.
+global.OwnerName = process.env.OWNER_NAME || "Awmtea Polythene";// Owner Name
+global.BotName = "🐦MrBot-md-v2";//Do not change 🥵
+global.packname = process.env.PACKNAME || "Awmtea Polythene";//Sticker pack name.
+global.author = "🐦MrBot-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";//Do not change                            //Do not change.
 global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do not change or bot will not function.
 global.SupportGroupLink = "https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm"; //Do not change!
 global.dbase = process.env.DBASE || "";//Mongodb here
-global.AuthorWhatsapp = "https://wa.me/2347080968564"; //Bot creator WhatsApp link,don't change or bot will not work.
+global.AuthorWhatsapp = "https://wa.me/918787651195"; //Bot creator WhatsApp link,don't change or bot will not work.
 */
-global.Owner = [""];
-global.OwnerNumber = [""]; 
-global.ownertag = [""]; 
-global.OwnerName = "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
-global.BotName = "🐦Makino-md-v2";
-global.packname = "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";                             //Do not change.
-global.author = "🐦Makino md ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";                               //Do not change.
+global.Owner = ["918787651195"];
+global.OwnerNumber = ["918787651195"]; 
+global.ownertag = ["Awmtea Polythene"]; 
+global.OwnerName = "Awmtea Polythene";
+global.BotName = "🐦MrBot-md-v2";
+global.packname = "Awmtea Polythene";                             //Do not change.
+global.author = "🐦MrBot md ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";                               //Do not change.
 global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do not change.
 global.SupportGroupLink = "https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm "; 
 global.sessID = process.env.sessID || ""; //Session ID here.
 global.SupportGroupLink = "https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm"; //Do not change!
 //global.dbase = process.env.DBASE || "";//Mongodb here
-global.AuthorWhatsapp = "https://wa.me/2347080968564"; //Bot creator WhatsApp link,don't change or bot will not work.
+global.AuthorWhatsapp = "https://wa.me/918787651195"; //Bot creator WhatsApp link,don't change or bot will not work.
 //
 global.sessionName = "session";                          //Do not change.
 
@@ -55,7 +55,7 @@ global.openAiAPI = "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";
 
 
 //
-global.location = "Lagos, Nigeria";                   
+global.location = "Mizoram, India";                   
 global.reactmoji = "🐦";
 global.themeemoji = "😏";
 global.vidmenu = { url: 'https://tenor.com/view/jujutsu-kaisen0-yuta-okkotsu-gif-26767662' };
